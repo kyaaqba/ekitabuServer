@@ -74,6 +74,7 @@
             "script/motd.sh",
             "script/minimize.sh",
             "script/installation.sh",
+            "script/dbconfig.sh",
             "script/cleanup.sh"
         ],
         "type": "shell"
