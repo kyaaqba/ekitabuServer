@@ -75,6 +75,8 @@
             "script/minimize.sh",
             "script/installation.sh",
             "script/dbconfig.sh",
+            "script/buildapplication.sh",
+            "script/addcontent.sh",
             "script/cleanup.sh"
         ],
         "type": "shell"
