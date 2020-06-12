@@ -9,7 +9,7 @@ Use this [Link](https://www.packer.io/downloads/) to download and install Packer
 HashiCorp Packer automates the creation of any type of machine image. It embraces modern configuration management by encouraging you to use automated scripts to install and configure the software within your Packer-made images. Packer brings machine images into the modern age, unlocking untapped potential and opening new opportunities.
 [more info](https://www.packer.io/)
 #### Install Vagrant
-Use this [Link](https://www.vagrantup.com/downloads) to download and install vagrant
+Use this [Link](https://www.vagrantup.com/downloads) to download and install Vagrant
 ##### About Vagrant
 HashiCorp Vagrant provides the same, easy workflow regardless of your role as a developer, operator, or designer. It leverages a declarative configuration file which describes all your software requirements, packages, operating system configuration, users, and more.
 [more info](https://www.vagrantup.com/)
