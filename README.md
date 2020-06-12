@@ -1,9 +1,11 @@
-# packer-ubuntu-18.04
+# eKitabu Web Server - Ubuntu 18.04
 ==============
 ### Overview
+An eKitabu webserver packer tempate to create a web server contains all required packages and content to create boxes for vagrant.
 
-A packer template to create Ubuntu 18.04 "Bionic Beaver" Server boxes for vagrant.
-
+### Prerequiset
+## Install Packer
+## Install Vagrant
 ### USAGE
 To create VirtualBox virtual machine.
 ```sh
