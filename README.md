@@ -37,7 +37,7 @@ After installing previous packages, Open a terminal window (Windows: Power Shell
 ```
 ##### Navigate to box/virtualbox folder (this step will take several minutes)
 ```sh
-    packer build ubuntu.json
+    cd box\virtualbox\
 ```
 ##### Use Vagrant to create a Virtual Machine (--name is to give the output a name, and the name could be modified)
 ```sh
