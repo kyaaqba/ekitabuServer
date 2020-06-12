@@ -19,7 +19,7 @@ After installing previous packages, Open a terminal window (Windows: Power Shell
 ```sh
     git clone https://github.com/kyaaqba/ekitabuServer.git
 ```
-##### To create VirtualBox virtual machine.
+##### To create vagrant box virtual machine template file.
 ```sh
     packer build ubuntu.json
 ```
