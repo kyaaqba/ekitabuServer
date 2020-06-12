@@ -14,18 +14,28 @@ Use This [Link](https://www.vagrantup.com/downloads) to download and install vag
 HashiCorp Vagrant provides the same, easy workflow regardless of your role as a developer, operator, or designer. It leverages a declarative configuration file which describes all your software requirements, packages, operating system configuration, users, and more.
 [more info](https://www.vagrantup.com/)
 ### USAGE
+After installing previous packages, Open a terminal window (Windows: Power Shell) and follow these steps:
+Clone this Repository.
+```sh
+    git clone https://github.com/kyaaqba/ekitabuServer.git
+```
 To create VirtualBox virtual machine.
 ```sh
     packer build ubuntu.json
 ```
-To create Hyper-V virtual machine.
+Use Vagrant to create a Virtual Machine
 ```sh
-    packer build ubuntu-hyperv.json
+     vagrant box add --name "webserver" .\ubuntu-18.04-0.1.box
 ```
-
-### Ubuntu 18.04.4
-Tested with [packer][] 1.5.4, [Vagrant][] 2.2.7, [VirtualBox][] 6.0.18
-
-[Packer]: https://packer.io/
-[Vagrant]: https://www.vagrantup.com/
-[VirtualBox]: https://www.virtualbox.org/
+Use Vagrant to initialize the Virtual Machine
+```sh
+     vagrant init webserver
+```
+Start up the virtual machine
+```sh
+     vagrant up
+```
+Access the virtual machine through ssh
+```sh
+      vagrant ssh
+```
