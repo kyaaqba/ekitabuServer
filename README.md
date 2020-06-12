@@ -15,27 +15,27 @@ HashiCorp Vagrant provides the same, easy workflow regardless of your role as a 
 [more info](https://www.vagrantup.com/)
 ### USAGE
 After installing previous packages, Open a terminal window (Windows: Power Shell) and follow these steps:
-Clone this Repository.
+##### Clone this Repository.
 ```sh
     git clone https://github.com/kyaaqba/ekitabuServer.git
 ```
-To create VirtualBox virtual machine.
+##### To create VirtualBox virtual machine.
 ```sh
     packer build ubuntu.json
 ```
-Use Vagrant to create a Virtual Machine
+##### Use Vagrant to create a Virtual Machine
 ```sh
      vagrant box add --name "webserver" .\ubuntu-18.04-0.1.box
 ```
-Use Vagrant to initialize the Virtual Machine
+##### Use Vagrant to initialize the Virtual Machine
 ```sh
      vagrant init webserver
 ```
-Start up the virtual machine
+##### Start up the virtual machine
 ```sh
      vagrant up
 ```
-Access the virtual machine through ssh
+##### Access the virtual machine through ssh
 ```sh
       vagrant ssh
 ```
