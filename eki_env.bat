@@ -1,3 +1,9 @@
+echo install packer
+choco install packer --confirm
+PAUSE
+echo install vagrant
+choco install vagrant --confirm
+PAUSE
 echo Make a new directory. (press any key to continue)
 PAUSE 
 mkdir eKitabuRepos
