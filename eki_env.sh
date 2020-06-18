@@ -1,21 +1,21 @@
 #!/bin/bash
 echo 'Update apt-get'
-sudo apt-get Update
-sudo apt-get Upgrade
+sudo apt-get -y Update
+sudo apt-get -y Upgrade
 echo 'Install packer'
 export VER="1.5.6"
 wget https://releases.hashicorp.com/packer/${VER}/packer_${VER}_linux_amd64.zip
-sudo apt install unzip
+sudo apt install -y unzip
 unzip packer_${VER}_linux_amd64.zip
 sudo mv packer /usr/local/bin
 echo 'Install vagrant\n'
-sudo apt-get install vagrant
+sudo apt-get install -y vagrant
 echo 'Install virtualbox\n'
 wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
 wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
 sudo add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian bionic contrib"
-sudo apt update
-sudo apt install virtualbox-6.0
+sudo apt -y update
+sudo apt install -y virtualbox-6.0
 echo "$(tput setaf 1) $(tput setaf 1) Make a new directory. \n"
 read -r -s -p $'Press enter to continue...\n'
 mkdir eKitabuRepos
